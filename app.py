@@ -28,4 +28,3 @@ if st.button("Predict Salary"):
 
     prediction = model.predict(df)
     st.success(f"Predicted Salary: {prediction[0]:,.2f}")
-    st.success(f"Result: {result[0]}")
